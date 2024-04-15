@@ -1,0 +1,85 @@
+@media only screen and  (max-width: 768px){
+  #container {
+    width: 100%;
+    overflow: hidden;
+  }
+  #home {
+    width: 100dvw;
+    height: 100vh;
+  }
+  #navbar a {
+        font-size: 20px;
+      }
+      #home-main {
+       
+        right: -20px;
+        gap: -20px;
+        /* top: -20px; */
+      }
+      .align-vid-h1 video {
+        width: 136px;
+        height: 83px;
+        margin-top: 20px;
+      }
+      
+      #home-main h1 {
+        line-height: 90%;
+        font-size: 90px;
+         
+      }
+      .feature {
+        
+        margin: 10px 0px;
+    }
+      .card p {
+        font-size: 20px;
+         
+      }
+      
+      .card button {
+        position: relative;
+        margin-top: 45px;
+        width: 300px;
+        height: 160px;
+        
+      }
+      .long-box,
+.short-box {
+  width: 300px;
+  height: auto;
+  margin-top: 15%;
+  border-radius: 30px;
+}
+#projects{
+    padding: 0px 0px 0px 57px;
+}
+.phil-card p {
+    font-size: 15px;
+  }
+  #Resource-headings {
+    
+    margin: 90px 0 0 90px;
+  }
+  
+  #Resource-headings h1 {
+     
+    font-size: 100px;
+     
+  }
+   
+#contact button {     
+    margin: 0px -6px 7px 7px;
+    width: 166px;
+}
+
+}
+/* @media only screen and  (max-width: 768px){
+
+} */
+
+@media(prefers-reduced-motion)
+{
+  .hidden{
+    transition: none;
+  }
+}
